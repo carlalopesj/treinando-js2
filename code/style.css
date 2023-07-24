@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #94260a;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border: solid 1px white;
+    border-radius: 8px;
+    width: 50%;
+    padding: 20px;
+}
+
+section {
+    background-color: #3a0e03;
+    border-radius: 10px;;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+}
+
+footer p {
+    padding-top: 8px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+#butao {
+    width: 50%;
+    padding: 5px;
+    margin-top: 8px;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    color: #3a0e03;
+    font-size: 1rem;
+}
